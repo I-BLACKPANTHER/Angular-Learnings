@@ -1,0 +1,11 @@
+<h1>{{ title }} !</h1>
+
+<p>Message : <input type="text" [(ngModel)]="message" /></p>
+<p>Code : <input type="text" [(ngModel)]="code" /></p>
+<p>Name : <input type="text" [(ngModel)]="name" /></p>
+<button (click)="updateMsg()">Update</button>
+<child-component
+  [message]="message"
+  [customer]="customer"
+  [code]="customer"
+></child-component>
