@@ -9,7 +9,7 @@ import { Customer } from './customer';
 
 @Component({
   selector: 'child-component',
-  template: `<h1>After changes</h1>
+  template: `<h1>After changes !</h1>
               <p>Message: {{message}} </p>
               <p>Customer: {{customer.name}} </p>
               <p>Code: {{customer.code}} </p>
